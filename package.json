@@ -1,0 +1,26 @@
+{
+  "name": "twitter-clone-server",
+  "version": "1.0.0",
+  "description": "Server for twitter clone using express and graphql",
+  "main": "index.js",
+  "author": "Anurag Poddar",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index",
+    "dev": "tsc-watch --onSuccess \"npm start\"",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "graphql": "^16.9.0"
+  }
+}
